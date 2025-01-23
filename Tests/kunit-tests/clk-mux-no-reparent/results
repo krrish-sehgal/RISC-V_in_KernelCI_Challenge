@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-mux-no-reparent
+    1..2
+    ok 1 clk_mux_no_reparent_round_rate
+    ok 2 clk_mux_no_reparent_set_rate
+    # module: clk_test
+# clk-mux-no-reparent: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 clk-mux-no-reparent

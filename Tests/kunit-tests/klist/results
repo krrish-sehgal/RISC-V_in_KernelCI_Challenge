@@ -1,0 +1,17 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: klist
+    1..8
+    ok 1 klist_test_add_tail
+    ok 2 klist_test_add_head
+    ok 3 klist_test_add_behind
+    ok 4 klist_test_add_before
+    ok 5 klist_test_del_refcount_greater_than_zero
+    ok 6 klist_test_del_refcount_zero
+    ok 7 klist_test_remove
+    ok 8 klist_test_node_attached
+    # module: list_test
+# klist: pass:8 fail:0 skip:0 total:8
+# Totals: pass:8 fail:0 skip:0 total:8
+ok 1 klist

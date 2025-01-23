@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: of_dtb
+    1..2
+    ok 1 of_dtb_root_node_found_by_path # SKIP arm64+acpi doesn't populate a root node
+    ok 2 of_dtb_root_node_populates_of_root # SKIP arm64+acpi doesn't populate a root node
+    # module: of_test
+# of_dtb: pass:0 fail:0 skip:2 total:2
+# Totals: pass:0 fail:0 skip:2 total:2
+ok 1 of_dtb

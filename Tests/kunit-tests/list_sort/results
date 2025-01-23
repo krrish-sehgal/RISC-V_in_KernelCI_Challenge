@@ -1,0 +1,8 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: list_sort
+    1..1
+    ok 1 list_sort_test
+    # module: test_list_sort
+ok 1 list_sort

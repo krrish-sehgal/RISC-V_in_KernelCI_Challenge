@@ -1,0 +1,29 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk_register_clk_parent_data_device
+    1..2
+        KTAP version 1
+        # Subtest: clk_register_clk_parent_data_device_test
+        ok 1 clk_parent_data_device_index_test # SKIP arm64+acpi doesn't populate a root node
+        ok 2 clk_parent_data_device_fwname_test # SKIP arm64+acpi doesn't populate a root node
+        ok 3 clk_parent_data_device_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 4 clk_parent_data_device_fwname_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 5 clk_parent_data_device_index_name_priority_test # SKIP arm64+acpi doesn't populate a root node
+        ok 6 clk_parent_data_device_index_fwname_name_priority_test # SKIP arm64+acpi doesn't populate a root node
+    # clk_register_clk_parent_data_device_test: pass:0 fail:0 skip:6 total:6
+    ok 1 clk_register_clk_parent_data_device_test # SKIP 
+        KTAP version 1
+        # Subtest: clk_register_clk_parent_data_device_hw_test
+        ok 1 clk_parent_data_device_hw_index_test # SKIP arm64+acpi doesn't populate a root node
+        ok 2 clk_parent_data_device_hw_fwname_test # SKIP arm64+acpi doesn't populate a root node
+        ok 3 clk_parent_data_device_hw_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 4 clk_parent_data_device_hw_fwname_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 5 clk_parent_data_device_hw_index_priority_test # SKIP arm64+acpi doesn't populate a root node
+        ok 6 clk_parent_data_device_hw_index_fwname_name_priority_test # SKIP arm64+acpi doesn't populate a root node
+    # clk_register_clk_parent_data_device_hw_test: pass:0 fail:0 skip:6 total:6
+    ok 2 clk_register_clk_parent_data_device_hw_test # SKIP 
+    # module: clk_test
+# clk_register_clk_parent_data_device: pass:0 fail:0 skip:2 total:2
+# Totals: pass:0 fail:0 skip:12 total:12
+ok 1 clk_register_clk_parent_data_device

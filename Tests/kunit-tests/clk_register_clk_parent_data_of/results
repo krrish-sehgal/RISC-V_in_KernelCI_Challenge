@@ -1,0 +1,18 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk_register_clk_parent_data_of
+    1..1
+        KTAP version 1
+        # Subtest: clk_register_clk_parent_data_of_test
+        ok 1 clk_parent_data_of_index_test # SKIP arm64+acpi doesn't populate a root node
+        ok 2 clk_parent_data_of_fwname_test # SKIP arm64+acpi doesn't populate a root node
+        ok 3 clk_parent_data_of_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 4 clk_parent_data_of_fwname_name_test # SKIP arm64+acpi doesn't populate a root node
+        ok 5 clk_parent_data_of_index_name_priority_test # SKIP arm64+acpi doesn't populate a root node
+        ok 6 clk_parent_data_of_index_fwname_name_priority_test # SKIP arm64+acpi doesn't populate a root node
+    # clk_register_clk_parent_data_of_test: pass:0 fail:0 skip:6 total:6
+    ok 1 clk_register_clk_parent_data_of_test # SKIP 
+    # module: clk_test
+# Totals: pass:0 fail:0 skip:6 total:6
+ok 1 clk_register_clk_parent_data_of

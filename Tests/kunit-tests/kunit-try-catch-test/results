@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit-try-catch-test
+    1..2
+    ok 1 kunit_test_try_catch_successful_try_no_catch
+    ok 2 kunit_test_try_catch_unsuccessful_try_does_catch
+    # module: kunit_test
+# kunit-try-catch-test: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 kunit-try-catch-test

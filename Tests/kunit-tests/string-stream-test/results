@@ -1,0 +1,25 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: string-stream-test
+    1..12
+    ok 1 string_stream_managed_init_test
+    ok 2 string_stream_unmanaged_init_test
+    ok 3 string_stream_managed_free_test
+    ok 4 string_stream_resource_free_test
+    ok 5 string_stream_line_add_test
+    ok 6 string_stream_variable_length_line_test
+    ok 7 string_stream_append_test
+    ok 8 string_stream_append_auto_newline_test
+    ok 9 string_stream_append_empty_string_test
+    ok 10 string_stream_no_auto_newline_test
+    ok 11 string_stream_auto_newline_test
+    # string_stream_performance_test: Time elapsed:           2084 us
+    # string_stream_performance_test: Total string length:    573890
+    # string_stream_performance_test: Bytes requested:        823930
+    # string_stream_performance_test: Actual bytes allocated: 1048312
+    ok 12 string_stream_performance_test
+    # module: string_stream_test
+# string-stream-test: pass:12 fail:0 skip:0 total:12
+# Totals: pass:12 fail:0 skip:0 total:12
+ok 1 string-stream-test

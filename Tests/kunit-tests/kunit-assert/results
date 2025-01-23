@@ -1,0 +1,20 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit-assert
+    1..11
+    ok 1 kunit_test_is_literal
+    ok 2 kunit_test_is_str_literal
+    ok 3 kunit_test_assert_prologue
+    ok 4 kunit_test_assert_print_msg
+    ok 5 kunit_test_unary_assert_format
+    ok 6 kunit_test_ptr_not_err_assert_format
+    ok 7 kunit_test_binary_assert_format
+    ok 8 kunit_test_binary_ptr_assert_format
+    ok 9 kunit_test_binary_str_assert_format
+    ok 10 kunit_test_assert_hexdump
+    ok 11 kunit_test_mem_assert_format
+    # module: assert_test
+# kunit-assert: pass:11 fail:0 skip:0 total:11
+# Totals: pass:11 fail:0 skip:0 total:11
+ok 1 kunit-assert

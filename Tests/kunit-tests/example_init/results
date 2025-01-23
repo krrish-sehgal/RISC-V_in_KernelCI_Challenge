@@ -1,0 +1,9 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: example_init
+    1..1
+    ok 1 example_init_test
+    # module: kunit_example_test
+    # is_init: true
+ok 1 example_init

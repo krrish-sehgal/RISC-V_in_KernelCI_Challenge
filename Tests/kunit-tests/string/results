@@ -1,0 +1,29 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: string
+    1..20
+    ok 1 string_test_memset16
+    ok 2 string_test_memset32
+    ok 3 string_test_memset64
+    ok 4 string_test_strchr
+    ok 5 string_test_strnchr
+    ok 6 string_test_strspn
+    ok 7 string_test_strcmp
+    ok 8 string_test_strcmp_long_strings
+    ok 9 string_test_strncmp
+    ok 10 string_test_strncmp_long_strings
+    ok 11 string_test_strcasecmp
+    ok 12 string_test_strcasecmp_long_strings
+    ok 13 string_test_strncasecmp
+    ok 14 string_test_strncasecmp_long_strings
+    ok 15 string_test_strscpy
+    ok 16 string_test_strcat
+    ok 17 string_test_strncat
+    ok 18 string_test_strlcat
+    ok 19 string_test_strtomem
+    ok 20 string_test_memtostr
+    # module: string_kunit
+# string: pass:20 fail:0 skip:0 total:20
+# Totals: pass:20 fail:0 skip:0 total:20
+ok 1 string

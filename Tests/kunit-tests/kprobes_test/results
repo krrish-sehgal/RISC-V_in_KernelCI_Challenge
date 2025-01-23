@@ -1,0 +1,16 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kprobes_test
+    1..7
+    ok 1 test_kprobe
+    ok 2 test_kprobes
+    ok 3 test_kprobe_missed
+    ok 4 test_kretprobe
+    ok 5 test_kretprobes
+    ok 6 test_stacktrace_on_kretprobe
+    ok 7 test_stacktrace_on_nested_kretprobe
+    # module: test_kprobes
+# kprobes_test: pass:7 fail:0 skip:0 total:7
+# Totals: pass:7 fail:0 skip:0 total:7
+ok 1 kprobes_test

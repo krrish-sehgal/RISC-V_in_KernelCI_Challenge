@@ -1,0 +1,12 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-range-maximize-test
+    1..3
+    ok 1 clk_range_test_set_range_rate_maximized
+    ok 2 clk_range_test_multiple_set_range_rate_maximized
+    ok 3 clk_range_test_multiple_set_range_rate_put_maximized
+    # module: clk_test
+# clk-range-maximize-test: pass:3 fail:0 skip:0 total:3
+# Totals: pass:3 fail:0 skip:0 total:3
+ok 1 clk-range-maximize-test

@@ -1,0 +1,8 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: siphash
+    1..1
+    ok 1 siphash_test
+    # module: siphash_kunit
+ok 1 siphash

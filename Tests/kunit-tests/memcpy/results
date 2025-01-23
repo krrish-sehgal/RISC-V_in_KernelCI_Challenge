@@ -1,0 +1,36 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: memcpy
+    1..6
+    # memset_test: ok: memset() direct assignment
+    # memset_test: ok: memset() complete overwrite
+    # memset_test: ok: memset() middle overwrite
+    # memset_test: ok: memset() argument side-effects
+    # memset_test: ok: memset() memset_after()
+    # memset_test: ok: memset() memset_startat()
+    ok 1 memset_test
+    # memcpy_test: ok: memcpy() static initializers
+    # memcpy_test: ok: memcpy() direct assignment
+    # memcpy_test: ok: memcpy() complete overwrite
+    # memcpy_test: ok: memcpy() middle overwrite
+    # memcpy_test: ok: memcpy() argument side-effects
+    ok 2 memcpy_test
+    # memcpy_large_test.speed: slow
+    ok 3 memcpy_large_test
+    # memmove_test: ok: memmove() static initializers
+    # memmove_test: ok: memmove() direct assignment
+    # memmove_test: ok: memmove() complete overwrite
+    # memmove_test: ok: memmove() middle overwrite
+    # memmove_test: ok: memmove() argument side-effects
+    # memmove_test: ok: memmove() overlapping write
+    # memmove_test.speed: slow
+    ok 4 memmove_test
+    # memmove_large_test.speed: slow
+    ok 5 memmove_large_test
+    # memmove_overlap_test.speed: slow
+    ok 6 memmove_overlap_test
+    # module: memcpy_kunit
+# memcpy: pass:6 fail:0 skip:0 total:6
+# Totals: pass:6 fail:0 skip:0 total:6
+ok 1 memcpy

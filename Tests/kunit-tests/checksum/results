@@ -1,0 +1,14 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: checksum
+    1..5
+    ok 1 test_csum_fixed_random_inputs
+    ok 2 test_csum_all_carry_inputs
+    ok 3 test_csum_no_carry_inputs
+    ok 4 test_ip_fast_csum
+    ok 5 test_csum_ipv6_magic
+    # module: checksum_kunit
+# checksum: pass:5 fail:0 skip:0 total:5
+# Totals: pass:5 fail:0 skip:0 total:5
+ok 1 checksum

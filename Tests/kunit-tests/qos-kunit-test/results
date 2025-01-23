@@ -1,0 +1,12 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: qos-kunit-test
+    1..3
+    ok 1 freq_qos_test_min
+    ok 2 freq_qos_test_maxdef
+    ok 3 freq_qos_test_readd
+    # module: qos_test
+# qos-kunit-test: pass:3 fail:0 skip:0 total:3
+# Totals: pass:3 fail:0 skip:0 total:3
+ok 1 qos-kunit-test

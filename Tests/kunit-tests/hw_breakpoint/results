@@ -1,0 +1,28 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: hw_breakpoint
+    1..9
+    ok 1 test_one_cpu
+    ok 2 test_many_cpus
+    # test_one_task_on_all_cpus: ASSERTION FAILED at kernel/events/hw_breakpoint_test.c:70
+    Expected IS_ERR(bp) to be false, but is true
+    not ok 3 test_one_task_on_all_cpus
+    # test_two_tasks_on_all_cpus: ASSERTION FAILED at kernel/events/hw_breakpoint_test.c:70
+    Expected IS_ERR(bp) to be false, but is true
+    not ok 4 test_two_tasks_on_all_cpus
+    # test_one_task_on_one_cpu: ASSERTION FAILED at kernel/events/hw_breakpoint_test.c:70
+    Expected IS_ERR(bp) to be false, but is true
+    not ok 5 test_one_task_on_one_cpu
+    ok 6 test_one_task_mixed # SKIP Requires breakpoint slots: 3 > 2
+    # test_two_tasks_on_one_cpu: ASSERTION FAILED at kernel/events/hw_breakpoint_test.c:70
+    Expected IS_ERR(bp) to be false, but is true
+    not ok 7 test_two_tasks_on_one_cpu
+    # test_two_tasks_on_one_all_cpus: ASSERTION FAILED at kernel/events/hw_breakpoint_test.c:70
+    Expected IS_ERR(bp) to be false, but is true
+    not ok 8 test_two_tasks_on_one_all_cpus
+    ok 9 test_task_on_all_and_one_cpu # SKIP Requires breakpoint slots: 3 > 2
+    # module: hw_breakpoint_test
+# hw_breakpoint: pass:2 fail:5 skip:2 total:9
+# Totals: pass:2 fail:5 skip:2 total:9
+not ok 1 hw_breakpoint

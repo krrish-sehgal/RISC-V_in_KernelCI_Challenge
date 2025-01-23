@@ -1,0 +1,8 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: damon-sysfs
+    1..1
+    ok 1 damon_sysfs_test_add_targets
+    # module: sysfs
+ok 1 damon-sysfs

@@ -1,0 +1,16 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: property-entry
+    1..7
+    ok 1 pe_test_uints
+    ok 2 pe_test_uint_arrays
+    ok 3 pe_test_strings
+    ok 4 pe_test_bool
+    ok 5 pe_test_move_inline_u8
+    ok 6 pe_test_move_inline_str
+    ok 7 pe_test_reference
+    # module: property_entry_test
+# property-entry: pass:7 fail:0 skip:0 total:7
+# Totals: pass:7 fail:0 skip:0 total:7
+ok 1 property-entry

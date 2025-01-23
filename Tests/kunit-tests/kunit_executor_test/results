@@ -1,0 +1,17 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit_executor_test
+    1..8
+    ok 1 parse_filter_test
+    ok 2 filter_suites_test
+    ok 3 filter_suites_test_glob_test
+    ok 4 filter_suites_to_empty_test
+    ok 5 parse_filter_attr_test
+    ok 6 filter_attr_test
+    ok 7 filter_attr_empty_test
+    ok 8 filter_attr_skip_test
+    # module: kunit
+# kunit_executor_test: pass:8 fail:0 skip:0 total:8
+# Totals: pass:8 fail:0 skip:0 total:8
+ok 1 kunit_executor_test

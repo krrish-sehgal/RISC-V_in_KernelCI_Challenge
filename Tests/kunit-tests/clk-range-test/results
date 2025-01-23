@@ -1,0 +1,20 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-range-test
+    1..11
+    ok 1 clk_range_test_set_range
+    ok 2 clk_range_test_set_range_invalid
+    ok 3 clk_range_test_multiple_disjoints_range
+    ok 4 clk_range_test_set_range_round_rate_lower
+    ok 5 clk_range_test_set_range_set_rate_lower
+    ok 6 clk_range_test_set_range_set_round_rate_consistent_lower
+    ok 7 clk_range_test_set_range_round_rate_higher
+    ok 8 clk_range_test_set_range_set_rate_higher
+    ok 9 clk_range_test_set_range_set_round_rate_consistent_higher
+    ok 10 clk_range_test_set_range_get_rate_raised
+    ok 11 clk_range_test_set_range_get_rate_lowered
+    # module: clk_test
+# clk-range-test: pass:11 fail:0 skip:0 total:11
+# Totals: pass:11 fail:0 skip:0 total:11
+ok 1 clk-range-test

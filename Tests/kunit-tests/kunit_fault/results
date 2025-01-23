@@ -1,0 +1,9 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit_fault
+    1..1
+    # kunit_test_fault_null_dereference: try faulted: last line seen lib/kunit/kunit-test.c:95
+    ok 1 kunit_test_fault_null_dereference
+    # module: kunit_test
+ok 1 kunit_fault

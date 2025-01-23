@@ -1,0 +1,2 @@
+Write to this file to trigger the test suite to run.
+usage: echo "any string" > /sys/kernel/debugfs/kunit/Handshake API tests/run

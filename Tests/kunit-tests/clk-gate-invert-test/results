@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-gate-invert-test
+    1..2
+    ok 1 clk_gate_test_invert_enable
+    ok 2 clk_gate_test_invert_disable
+    # module: clk_gate_test
+# clk-gate-invert-test: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 clk-gate-invert-test

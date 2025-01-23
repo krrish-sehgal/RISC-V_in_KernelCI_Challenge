@@ -1,0 +1,13 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-fd-approximation
+    1..4
+    ok 1 clk_fd_test_approximation_max_denominator
+    ok 2 clk_fd_test_approximation_max_numerator
+    ok 3 clk_fd_test_approximation_max_denominator_zero_based
+    ok 4 clk_fd_test_approximation_max_numerator_zero_based
+    # module: clk_fractional_divider_test
+# clk-fd-approximation: pass:4 fail:0 skip:0 total:4
+# Totals: pass:4 fail:0 skip:0 total:4
+ok 1 clk-fd-approximation

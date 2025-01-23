@@ -1,0 +1,29 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: net_core
+    1..2
+        KTAP version 1
+        # Subtest: gso_test_func
+        ok 1 no_gso
+        ok 2 linear
+        ok 3 frags
+        ok 4 frags_pure
+        ok 5 gso_partial
+        ok 6 frag_list
+        ok 7 frag_list_pure
+        ok 8 frag_list_non_uniform
+        ok 9 gso_by_frags
+    # gso_test_func: pass:9 fail:0 skip:0 total:9
+    ok 1 gso_test_func
+        KTAP version 1
+        # Subtest: ip_tunnel_flags_test_run
+        ok 1 compat
+        ok 2 conflict
+        ok 3 new
+    # ip_tunnel_flags_test_run: pass:3 fail:0 skip:0 total:3
+    ok 2 ip_tunnel_flags_test_run
+    # module: net_test
+# net_core: pass:2 fail:0 skip:0 total:2
+# Totals: pass:12 fail:0 skip:0 total:12
+ok 1 net_core

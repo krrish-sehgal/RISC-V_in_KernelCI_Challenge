@@ -1,0 +1,9 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: time_test_cases
+    1..1
+    # time64_to_tm_test_date_range.speed: slow
+    ok 1 time64_to_tm_test_date_range
+    # module: time_test
+ok 1 time_test_cases

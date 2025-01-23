@@ -1,0 +1,15 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: dev-addr-list-test
+    1..6
+    ok 1 dev_addr_test_basic
+    ok 2 dev_addr_test_sync_one
+    ok 3 dev_addr_test_add_del
+    ok 4 dev_addr_test_del_main
+    ok 5 dev_addr_test_add_set
+    ok 6 dev_addr_test_add_excl
+    # module: dev_addr_lists_test
+# dev-addr-list-test: pass:6 fail:0 skip:0 total:6
+# Totals: pass:6 fail:0 skip:0 total:6
+ok 1 dev-addr-list-test

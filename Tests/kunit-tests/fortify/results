@@ -1,0 +1,35 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: fortify
+    1..26
+    ok 1 fortify_test_known_sizes
+    ok 2 fortify_test_control_flow_split
+    ok 3 fortify_test_alloc_size_kmalloc_const
+    ok 4 fortify_test_alloc_size_kmalloc_dynamic
+    ok 5 fortify_test_alloc_size_vmalloc_const
+    ok 6 fortify_test_alloc_size_vmalloc_dynamic
+    ok 7 fortify_test_alloc_size_kvmalloc_const
+    ok 8 fortify_test_alloc_size_kvmalloc_dynamic
+    ok 9 fortify_test_alloc_size_devm_kmalloc_const
+    ok 10 fortify_test_alloc_size_devm_kmalloc_dynamic
+    ok 11 fortify_test_realloc_size
+    ok 12 fortify_test_strlen
+    ok 13 fortify_test_strnlen
+    ok 14 fortify_test_strcpy
+    ok 15 fortify_test_strncpy
+    ok 16 fortify_test_strscpy
+    ok 17 fortify_test_strcat
+    ok 18 fortify_test_strncat
+    ok 19 fortify_test_strlcat
+    ok 20 fortify_test_memcpy
+    ok 21 fortify_test_memmove
+    ok 22 fortify_test_memscan
+    ok 23 fortify_test_memchr
+    ok 24 fortify_test_memchr_inv
+    ok 25 fortify_test_memcmp
+    ok 26 fortify_test_kmemdup
+    # module: fortify_kunit
+# fortify: pass:26 fail:0 skip:0 total:26
+# Totals: pass:26 fail:0 skip:0 total:26
+ok 1 fortify

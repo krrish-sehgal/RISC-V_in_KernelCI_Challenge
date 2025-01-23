@@ -1,0 +1,12 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: rtc_lib_test_cases
+    1..2
+    ok 1 rtc_time64_to_tm_test_date_range_1000
+    # rtc_time64_to_tm_test_date_range_160000.speed: slow
+    ok 2 rtc_time64_to_tm_test_date_range_160000
+    # module: lib_test
+# rtc_lib_test_cases: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 rtc_lib_test_cases

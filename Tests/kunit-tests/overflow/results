@@ -1,0 +1,52 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: overflow
+    1..22
+    # u8_u8__u8_overflow_test: 18 u8_u8__u8 arithmetic tests finished
+    ok 1 u8_u8__u8_overflow_test
+    # s8_s8__s8_overflow_test: 19 s8_s8__s8 arithmetic tests finished
+    ok 2 s8_s8__s8_overflow_test
+    # u16_u16__u16_overflow_test: 17 u16_u16__u16 arithmetic tests finished
+    ok 3 u16_u16__u16_overflow_test
+    # s16_s16__s16_overflow_test: 17 s16_s16__s16 arithmetic tests finished
+    ok 4 s16_s16__s16_overflow_test
+    # u32_u32__u32_overflow_test: 17 u32_u32__u32 arithmetic tests finished
+    ok 5 u32_u32__u32_overflow_test
+    # s32_s32__s32_overflow_test: 17 s32_s32__s32 arithmetic tests finished
+    ok 6 s32_s32__s32_overflow_test
+    # u64_u64__u64_overflow_test: 17 u64_u64__u64 arithmetic tests finished
+    ok 7 u64_u64__u64_overflow_test
+    # s64_s64__s64_overflow_test: 21 s64_s64__s64 arithmetic tests finished
+    ok 8 s64_s64__s64_overflow_test
+    # u32_u32__int_overflow_test: 2 u32_u32__int arithmetic tests finished
+    ok 9 u32_u32__int_overflow_test
+    # u32_u32__u8_overflow_test: 3 u32_u32__u8 arithmetic tests finished
+    ok 10 u32_u32__u8_overflow_test
+    # u8_u8__int_overflow_test: 3 u8_u8__int arithmetic tests finished
+    ok 11 u8_u8__int_overflow_test
+    # int_int__u8_overflow_test: 3 int_int__u8 arithmetic tests finished
+    ok 12 int_int__u8_overflow_test
+    # shift_sane_test: 36 sane shift tests finished
+    ok 13 shift_sane_test
+    # shift_overflow_test: 25 overflow shift tests finished
+    ok 14 shift_overflow_test
+    # shift_truncate_test: 27 truncate shift tests finished
+    ok 15 shift_truncate_test
+    # shift_nonsense_test: 25 nonsense shift tests finished
+    ok 16 shift_nonsense_test
+    # overflow_allocation_test: 11 allocation overflow tests finished
+    ok 17 overflow_allocation_test
+    # overflow_size_helpers_test: 43 overflow size helper tests finished
+    ok 18 overflow_size_helpers_test
+    # overflows_type_test: 658 overflows_type() tests finished
+    ok 19 overflows_type_test
+    # same_type_test: 0 __same_type() tests finished
+    ok 20 same_type_test
+    # castable_to_type_test: 103 castable_to_type() tests finished
+    ok 21 castable_to_type_test
+    ok 22 DEFINE_FLEX_test
+    # module: overflow_kunit
+# overflow: pass:22 fail:0 skip:0 total:22
+# Totals: pass:22 fail:0 skip:0 total:22
+ok 1 overflow

@@ -1,0 +1,8 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: lib_sort
+    1..1
+    ok 1 test_sort
+    # module: test_sort
+ok 1 lib_sort

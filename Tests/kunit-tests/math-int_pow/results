@@ -1,0 +1,21 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: math-int_pow
+    1..1
+        KTAP version 1
+        # Subtest: int_pow_test
+        ok 1 Power of zero
+        ok 2 Power of one
+        ok 3 Base zero
+        ok 4 Base one
+        ok 5 Two squared
+        ok 6 Two cubed
+        ok 7 Five raised to the fifth power
+        ok 8 Max base
+        ok 9 Large result
+    # int_pow_test: pass:9 fail:0 skip:0 total:9
+    ok 1 int_pow_test
+    # module: int_pow_kunit
+# Totals: pass:9 fail:0 skip:0 total:9
+ok 1 math-int_pow

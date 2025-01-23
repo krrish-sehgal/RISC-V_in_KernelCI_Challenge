@@ -1,0 +1,14 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit-log-test
+    1..2
+put this in log.
+this too.
+    ok 1 kunit_log_test
+    # kunit_log_newline_test: Add newline
+    ok 2 kunit_log_newline_test
+    # module: kunit_test
+# kunit-log-test: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 kunit-log-test

@@ -1,0 +1,74 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: stackinit
+    1..65
+    ok 1 test_u8_zero
+    ok 2 test_u16_zero
+    ok 3 test_u32_zero
+    ok 4 test_u64_zero
+    ok 5 test_char_array_zero
+    ok 6 test_small_hole_zero
+    ok 7 test_big_hole_zero
+    ok 8 test_trailing_hole_zero
+    ok 9 test_packed_zero
+    ok 10 test_small_hole_dynamic_partial
+    ok 11 test_big_hole_dynamic_partial
+    ok 12 test_trailing_hole_dynamic_partial
+    ok 13 test_packed_dynamic_partial
+    ok 14 test_small_hole_assigned_dynamic_partial
+    ok 15 test_big_hole_assigned_dynamic_partial
+    ok 16 test_trailing_hole_assigned_dynamic_partial
+    ok 17 test_packed_assigned_dynamic_partial
+    ok 18 test_small_hole_static_partial
+    ok 19 test_big_hole_static_partial
+    ok 20 test_trailing_hole_static_partial
+    ok 21 test_packed_static_partial
+    ok 22 test_small_hole_static_all
+    ok 23 test_big_hole_static_all
+    ok 24 test_trailing_hole_static_all
+    ok 25 test_packed_static_all
+    ok 26 test_small_hole_dynamic_all
+    ok 27 test_big_hole_dynamic_all
+    ok 28 test_trailing_hole_dynamic_all
+    ok 29 test_packed_dynamic_all
+    ok 30 test_small_hole_runtime_partial
+    ok 31 test_big_hole_runtime_partial
+    ok 32 test_trailing_hole_runtime_partial
+    ok 33 test_packed_runtime_partial
+    ok 34 test_small_hole_runtime_all
+    ok 35 test_big_hole_runtime_all
+    ok 36 test_trailing_hole_runtime_all
+    ok 37 test_packed_runtime_all
+    ok 38 test_small_hole_assigned_static_partial
+    ok 39 test_big_hole_assigned_static_partial
+    ok 40 test_trailing_hole_assigned_static_partial
+    ok 41 test_packed_assigned_static_partial
+    ok 42 test_small_hole_assigned_static_all
+    ok 43 test_big_hole_assigned_static_all
+    ok 44 test_trailing_hole_assigned_static_all
+    ok 45 test_packed_assigned_static_all
+    ok 46 test_small_hole_assigned_dynamic_all
+    ok 47 test_big_hole_assigned_dynamic_all
+    ok 48 test_trailing_hole_assigned_dynamic_all
+    ok 49 test_packed_assigned_dynamic_all
+    ok 50 test_small_hole_assigned_copy # SKIP XFAIL uninit bytes: 3
+    ok 51 test_big_hole_assigned_copy # SKIP XFAIL uninit bytes: 124
+    ok 52 test_trailing_hole_assigned_copy # SKIP XFAIL uninit bytes: 7
+    ok 53 test_packed_assigned_copy
+    ok 54 test_u8_none
+    ok 55 test_u16_none
+    ok 56 test_u32_none
+    ok 57 test_u64_none
+    ok 58 test_char_array_none
+    ok 59 test_switch_1_none # SKIP XFAIL uninit bytes: 80
+    ok 60 test_switch_2_none # SKIP XFAIL uninit bytes: 80
+    ok 61 test_small_hole_none
+    ok 62 test_big_hole_none
+    ok 63 test_trailing_hole_none
+    ok 64 test_packed_none
+    ok 65 test_user
+    # module: stackinit_kunit
+# stackinit: pass:60 fail:0 skip:5 total:65
+# Totals: pass:60 fail:0 skip:5 total:65
+ok 1 stackinit

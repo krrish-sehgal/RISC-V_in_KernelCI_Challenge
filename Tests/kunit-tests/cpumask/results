@@ -1,0 +1,15 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: cpumask
+    1..6
+    ok 1 test_cpumask_weight
+    ok 2 test_cpumask_first
+    ok 3 test_cpumask_last
+    ok 4 test_cpumask_next
+    ok 5 test_cpumask_iterators
+    ok 6 test_cpumask_iterators_builtin
+    # module: cpumask_kunit
+# cpumask: pass:6 fail:0 skip:0 total:6
+# Totals: pass:6 fail:0 skip:0 total:6
+ok 1 cpumask

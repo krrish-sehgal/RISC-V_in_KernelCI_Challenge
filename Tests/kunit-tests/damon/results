@@ -1,0 +1,25 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: damon
+    1..16
+    ok 1 damon_test_target
+    ok 2 damon_test_regions
+    ok 3 damon_test_aggregate
+    ok 4 damon_test_split_at
+    ok 5 damon_test_merge_two
+    ok 6 damon_test_merge_regions_of
+    ok 7 damon_test_split_regions_of
+    ok 8 damon_test_ops_registration
+    ok 9 damon_test_set_regions
+    ok 10 damon_test_nr_accesses_to_accesses_bp
+    ok 11 damon_test_update_monitoring_result
+    ok 12 damon_test_set_attrs
+    ok 13 damon_test_moving_sum
+    ok 14 damos_test_new_filter
+    ok 15 damos_test_filter_out
+    ok 16 damon_test_feed_loop_next_input
+    # module: core
+# damon: pass:16 fail:0 skip:0 total:16
+# Totals: pass:16 fail:0 skip:0 total:16
+ok 1 damon

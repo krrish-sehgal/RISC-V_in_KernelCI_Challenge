@@ -1,0 +1,55 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: example
+    1..9
+    # example_simple_test: initializing
+    # example_simple_test: cleaning up
+    ok 1 example_simple_test
+    # example_skip_test: initializing
+    # example_skip_test: You should not see a line below.
+    # example_skip_test: cleaning up
+    ok 2 example_skip_test # SKIP this test should be skipped
+    # example_mark_skipped_test: initializing
+    # example_mark_skipped_test: You should see a line below.
+    # example_mark_skipped_test: You should see this line.
+    # example_mark_skipped_test: cleaning up
+    ok 3 example_mark_skipped_test # SKIP this test should be skipped
+    # example_all_expect_macros_test: initializing
+    # example_all_expect_macros_test: cleaning up
+    ok 4 example_all_expect_macros_test
+    # example_static_stub_test: initializing
+    # example_static_stub_test: cleaning up
+    ok 5 example_static_stub_test
+    # example_static_stub_using_fn_ptr_test: initializing
+    # example_static_stub_using_fn_ptr_test: cleaning up
+    ok 6 example_static_stub_using_fn_ptr_test
+    # example_priv_test: initializing
+    # example_priv_test: cleaning up
+    ok 7 example_priv_test
+        KTAP version 1
+        # Subtest: example_params_test
+    # example_params_test: initializing
+    # example_params_test: cleaning up
+        ok 1 example value 3 # SKIP unsupported param value 3
+    # example_params_test: initializing
+    # example_params_test: cleaning up
+        ok 2 example value 2
+    # example_params_test: initializing
+    # example_params_test: cleaning up
+        ok 3 example value 1
+    # example_params_test: initializing
+    # example_params_test: cleaning up
+        ok 4 example value 0 # SKIP unsupported param value 0
+    # example_params_test: pass:2 fail:0 skip:2 total:4
+    ok 8 example_params_test
+    # example_slow_test: initializing
+    # example_slow_test: cleaning up
+    # example_slow_test.speed: slow
+    ok 9 example_slow_test
+    # example: initializing suite
+    # module: kunit_example_test
+    # example: exiting suite
+# example: pass:7 fail:0 skip:2 total:9
+# Totals: pass:8 fail:0 skip:4 total:12
+ok 1 example

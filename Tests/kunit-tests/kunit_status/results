@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit_status
+    1..2
+    ok 1 kunit_status_set_failure_test
+    ok 2 kunit_status_mark_skipped_test
+    # module: kunit_test
+# kunit_status: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 kunit_status

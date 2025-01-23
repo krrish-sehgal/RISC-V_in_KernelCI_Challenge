@@ -1,0 +1,20 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: rational
+    1..1
+        KTAP version 1
+        # Subtest: rational_test
+        ok 1 Exceeds bounds, semi-convergent term > 1/2 last term
+        ok 2 Exceeds bounds, semi-convergent term < 1/2 last term
+        ok 3 Closest to zero
+        ok 4 Closest to smallest non-zero
+        ok 5 Use convergent
+        ok 6 Exact answer
+        ok 7 Semiconvergent, numerator limit
+        ok 8 Semiconvergent, denominator limit
+    # rational_test: pass:8 fail:0 skip:0 total:8
+    ok 1 rational_test
+    # module: rational_test
+# Totals: pass:8 fail:0 skip:0 total:8
+ok 1 rational

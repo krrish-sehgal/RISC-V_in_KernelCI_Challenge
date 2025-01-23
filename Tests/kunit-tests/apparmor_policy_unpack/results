@@ -1,0 +1,39 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: apparmor_policy_unpack
+    1..30
+    ok 1 policy_unpack_test_inbounds_when_inbounds
+    ok 2 policy_unpack_test_inbounds_when_out_of_bounds
+    ok 3 policy_unpack_test_unpack_array_with_null_name
+    ok 4 policy_unpack_test_unpack_array_with_name
+    ok 5 policy_unpack_test_unpack_array_out_of_bounds
+    ok 6 policy_unpack_test_unpack_blob_with_null_name
+    ok 7 policy_unpack_test_unpack_blob_with_name
+    ok 8 policy_unpack_test_unpack_blob_out_of_bounds
+    ok 9 policy_unpack_test_unpack_nameX_with_null_name
+    ok 10 policy_unpack_test_unpack_nameX_with_wrong_code
+    ok 11 policy_unpack_test_unpack_nameX_with_name
+    ok 12 policy_unpack_test_unpack_nameX_with_wrong_name
+    ok 13 policy_unpack_test_unpack_str_with_null_name
+    ok 14 policy_unpack_test_unpack_str_with_name
+    ok 15 policy_unpack_test_unpack_str_out_of_bounds
+    ok 16 policy_unpack_test_unpack_strdup_with_null_name
+    ok 17 policy_unpack_test_unpack_strdup_with_name
+    ok 18 policy_unpack_test_unpack_strdup_out_of_bounds
+    ok 19 policy_unpack_test_unpack_u16_chunk_basic
+    ok 20 policy_unpack_test_unpack_u16_chunk_out_of_bounds_1
+    ok 21 policy_unpack_test_unpack_u16_chunk_out_of_bounds_2
+    ok 22 policy_unpack_test_unpack_u32_with_null_name
+    ok 23 policy_unpack_test_unpack_u32_with_name
+    ok 24 policy_unpack_test_unpack_u32_out_of_bounds
+    ok 25 policy_unpack_test_unpack_u64_with_null_name
+    ok 26 policy_unpack_test_unpack_u64_with_name
+    ok 27 policy_unpack_test_unpack_u64_out_of_bounds
+    ok 28 policy_unpack_test_unpack_X_code_match
+    ok 29 policy_unpack_test_unpack_X_code_mismatch
+    ok 30 policy_unpack_test_unpack_X_out_of_bounds
+    # module: apparmor_policy_unpack_test
+# apparmor_policy_unpack: pass:30 fail:0 skip:0 total:30
+# Totals: pass:30 fail:0 skip:0 total:30
+ok 1 apparmor_policy_unpack

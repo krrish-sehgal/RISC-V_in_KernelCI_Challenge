@@ -1,0 +1,24 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit-resource-test
+    1..12
+    ok 1 kunit_resource_test_init_resources
+    ok 2 kunit_resource_test_alloc_resource
+    ok 3 kunit_resource_test_destroy_resource
+    ok 4 kunit_resource_test_remove_resource
+    ok 5 kunit_resource_test_cleanup_resources
+    ok 6 kunit_resource_test_proper_free_ordering
+    ok 7 kunit_resource_test_static
+    ok 8 kunit_resource_test_named
+    ok 9 kunit_resource_test_action
+    ok 10 kunit_resource_test_remove_action
+    ok 11 kunit_resource_test_release_action
+action_order_2
+action_order_2
+action_order_1
+    ok 12 kunit_resource_test_action_ordering
+    # module: kunit_test
+# kunit-resource-test: pass:12 fail:0 skip:0 total:12
+# Totals: pass:12 fail:0 skip:0 total:12
+ok 1 kunit-resource-test

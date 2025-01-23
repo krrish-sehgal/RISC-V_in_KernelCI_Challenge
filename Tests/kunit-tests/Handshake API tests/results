@@ -1,0 +1,29 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: Handshake API tests
+    1..11
+        KTAP version 1
+        # Subtest: req_alloc API fuzzing
+        ok 1 handshake_req_alloc NULL proto
+        ok 2 handshake_req_alloc CLASS_NONE
+        ok 3 handshake_req_alloc CLASS_MAX
+        ok 4 handshake_req_alloc no callbacks
+        ok 5 handshake_req_alloc no done callback
+        ok 6 handshake_req_alloc excessive privsize
+        ok 7 handshake_req_alloc all good
+    # req_alloc API fuzzing: pass:7 fail:0 skip:0 total:7
+    ok 1 req_alloc API fuzzing
+    ok 2 req_submit NULL req arg
+    ok 3 req_submit NULL sock arg
+    ok 4 req_submit NULL sock->file
+    ok 5 req_lookup works
+    ok 6 req_submit max pending
+    ok 7 req_submit multiple
+    ok 8 req_cancel before accept
+    ok 9 req_cancel after accept
+    ok 10 req_cancel after done
+    ok 11 req_destroy works
+# Handshake API tests: pass:11 fail:0 skip:0 total:11
+# Totals: pass:17 fail:0 skip:0 total:17
+ok 1 Handshake API tests

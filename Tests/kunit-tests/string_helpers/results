@@ -1,0 +1,12 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: string_helpers
+    1..3
+    ok 1 test_get_size
+    ok 2 test_upper_lower
+    ok 3 test_unescape
+    # module: string_helpers_kunit
+# string_helpers: pass:3 fail:0 skip:0 total:3
+# Totals: pass:3 fail:0 skip:0 total:3
+ok 1 string_helpers

@@ -1,0 +1,18 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: hashtable
+    1..9
+    ok 1 hashtable_test_hash_init
+    ok 2 hashtable_test_hash_empty
+    ok 3 hashtable_test_hash_hashed
+    ok 4 hashtable_test_hash_add
+    ok 5 hashtable_test_hash_del
+    ok 6 hashtable_test_hash_for_each
+    ok 7 hashtable_test_hash_for_each_safe
+    ok 8 hashtable_test_hash_for_each_possible
+    ok 9 hashtable_test_hash_for_each_possible_safe
+    # module: hashtable_test
+# hashtable: pass:9 fail:0 skip:0 total:9
+# Totals: pass:9 fail:0 skip:0 total:9
+ok 1 hashtable

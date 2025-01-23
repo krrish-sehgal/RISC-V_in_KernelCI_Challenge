@@ -1,0 +1,15 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk-gate-register-test
+    1..6
+    ok 1 clk_gate_register_test_dev
+    ok 2 clk_gate_register_test_parent_names
+    ok 3 clk_gate_register_test_parent_data
+    ok 4 clk_gate_register_test_parent_data_legacy
+    ok 5 clk_gate_register_test_parent_hw
+    ok 6 clk_gate_register_test_hiword_invalid
+    # module: clk_gate_test
+# clk-gate-register-test: pass:6 fail:0 skip:0 total:6
+# Totals: pass:6 fail:0 skip:0 total:6
+ok 1 clk-gate-register-test

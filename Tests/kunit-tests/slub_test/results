@@ -1,0 +1,17 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: slub_test
+    1..8
+    ok 1 test_clobber_zone
+    ok 2 test_next_pointer
+    ok 3 test_first_word
+    ok 4 test_clobber_50th_byte
+    ok 5 test_clobber_redzone_free
+    ok 6 test_kmalloc_redzone_access
+    ok 7 test_kfree_rcu # SKIP can't do kfree_rcu() when test is built-in
+    ok 8 test_leak_destroy
+    # module: slub_kunit
+# slub_test: pass:7 fail:0 skip:1 total:8
+# Totals: pass:7 fail:0 skip:1 total:8
+ok 1 slub_test

@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit_platform_driver
+    1..2
+    ok 1 kunit_platform_driver_register_test
+    ok 2 kunit_platform_device_prepare_wait_for_probe_completes_when_already_probed
+    # module: platform_test
+# kunit_platform_driver: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 kunit_platform_driver

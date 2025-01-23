@@ -1,0 +1,21 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: iov_iter
+    1..12
+    ok 1 iov_kunit_copy_to_kvec
+    ok 2 iov_kunit_copy_from_kvec
+    ok 3 iov_kunit_copy_to_bvec
+    ok 4 iov_kunit_copy_from_bvec
+    ok 5 iov_kunit_copy_to_folioq
+    ok 6 iov_kunit_copy_from_folioq
+    ok 7 iov_kunit_copy_to_xarray
+    ok 8 iov_kunit_copy_from_xarray
+    ok 9 iov_kunit_extract_pages_kvec
+    ok 10 iov_kunit_extract_pages_bvec
+    ok 11 iov_kunit_extract_pages_folioq
+    ok 12 iov_kunit_extract_pages_xarray
+    # module: kunit_iov_iter
+# iov_iter: pass:12 fail:0 skip:0 total:12
+# Totals: pass:12 fail:0 skip:0 total:12
+ok 1 iov_iter

@@ -1,0 +1,16 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: landlock_fs
+    1..7
+    ok 1 test_no_more_access
+    ok 2 test_scope_to_request_with_exec_none
+    ok 3 test_scope_to_request_with_exec_some
+    ok 4 test_scope_to_request_without_access
+    ok 5 test_is_eacces_with_none
+    ok 6 test_is_eacces_with_refer
+    ok 7 test_is_eacces_with_write
+    # module: landlock
+# landlock_fs: pass:7 fail:0 skip:0 total:7
+# Totals: pass:7 fail:0 skip:0 total:7
+ok 1 landlock_fs

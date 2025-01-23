@@ -1,0 +1,13 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: kunit_platform_device
+    1..4
+    ok 1 kunit_platform_device_alloc_test
+    ok 2 kunit_platform_device_add_test
+    ok 3 kunit_platform_device_add_twice_fails_test
+    ok 4 kunit_platform_device_add_cleans_up
+    # module: platform_test
+# kunit_platform_device: pass:4 fail:0 skip:0 total:4
+# Totals: pass:4 fail:0 skip:0 total:4
+ok 1 kunit_platform_device

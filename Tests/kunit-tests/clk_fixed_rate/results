@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: clk_fixed_rate
+    1..2
+    ok 1 clk_fixed_rate_rate_test
+    ok 2 clk_fixed_rate_accuracy_test
+    # module: clk_fixed_rate_test
+# clk_fixed_rate: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 clk_fixed_rate

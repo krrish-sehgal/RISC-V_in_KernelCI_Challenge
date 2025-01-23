@@ -1,0 +1,11 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: hash
+    1..2
+    ok 1 test_string_or
+    ok 2 test_hash_or
+    # module: test_hash
+# hash: pass:2 fail:0 skip:0 total:2
+# Totals: pass:2 fail:0 skip:0 total:2
+ok 1 hash

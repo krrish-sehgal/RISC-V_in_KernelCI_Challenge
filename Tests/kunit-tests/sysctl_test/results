@@ -1,0 +1,20 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: sysctl_test
+    1..11
+    ok 1 sysctl_test_api_dointvec_null_tbl_data
+    ok 2 sysctl_test_api_dointvec_table_maxlen_unset
+    ok 3 sysctl_test_api_dointvec_table_len_is_zero
+    ok 4 sysctl_test_api_dointvec_table_read_but_position_set
+    ok 5 sysctl_test_dointvec_read_happy_single_positive
+    ok 6 sysctl_test_dointvec_read_happy_single_negative
+    ok 7 sysctl_test_dointvec_write_happy_single_positive
+    ok 8 sysctl_test_dointvec_write_happy_single_negative
+    ok 9 sysctl_test_api_dointvec_write_single_less_int_min
+    ok 10 sysctl_test_api_dointvec_write_single_greater_int_max
+    ok 11 sysctl_test_register_sysctl_sz_invalid_extra_value
+    # module: sysctl_test
+# sysctl_test: pass:11 fail:0 skip:0 total:11
+# Totals: pass:11 fail:0 skip:0 total:11
+ok 1 sysctl_test

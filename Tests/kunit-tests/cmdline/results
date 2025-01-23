@@ -1,0 +1,13 @@
+KTAP version 1
+1..1
+    KTAP version 1
+    # Subtest: cmdline
+    1..4
+    ok 1 cmdline_test_noint
+    ok 2 cmdline_test_lead_int
+    ok 3 cmdline_test_tail_int
+    ok 4 cmdline_test_range
+    # module: cmdline_kunit
+# cmdline: pass:4 fail:0 skip:0 total:4
+# Totals: pass:4 fail:0 skip:0 total:4
+ok 1 cmdline
